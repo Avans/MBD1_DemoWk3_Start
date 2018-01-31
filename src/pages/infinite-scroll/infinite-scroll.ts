@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { HttpClient } from '@angular/common/http';
-import { reorderArray } from 'ionic-angular';
 
 @IonicPage()
 @Component({
