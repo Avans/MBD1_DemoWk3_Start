@@ -9,7 +9,7 @@ Start je project met _ionic serve_
 5. We maken hier een lijst in en willen radio buttons tonen.  
    Merk op dat we (vrijwel) alleen maar ION tags hebben.
 ```html
-<ion-list>
+<ion-list radio-group>
 	<ion-item *ngFor="let course of courses">
 	<ion-avatar item-start>
 		<img [src]="course.imageUrl" />
