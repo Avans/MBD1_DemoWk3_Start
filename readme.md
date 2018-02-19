@@ -33,9 +33,11 @@ $radio-md-disabled-opacity: 0.1;
 ```html
 (ionSelect)="selectCourse(course)
 ```
-9. Voeg in _css-components.ts_ de code toe om een course te selecteren:
+9. Voeg in _css-components.ts_ de volgende methode toe om een course te selecteren:
 ```typescript
-selectCourse(course: any) { this.selectedCourse = course; }
+selectCourse(course: any) { 
+  this.selectedCourse = course; 
+}
 ```
 10. In _css-components.html_ kunnen we nu mooi de selected course laten zien:
 ```html
