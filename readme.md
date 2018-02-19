@@ -116,6 +116,8 @@ loadMore(infiniteScroll: any = undefined) {
 ```
 
 ### Bonus: Reordering items
+_**Let op: Dit werkt alleen als je virtual scroll weer uit zet. Je moet dus bovenstaande stappen even ongedaan maken.**__
+
 10. Om maar aan te geven hoe rijk het framework is nog één item, zelf kunnen slepen.
 11. Verander je item-group naar het volgende:
 ```html
