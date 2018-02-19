@@ -74,7 +74,7 @@ filterCourses(event: any) {
 2. Voorbeelden zijn bijvoorbeeld infinite scroll, reorder en virtual scroll
 
 ### Infinite scroll
-3. Voeg onder aan de lijst in _infinite-scroll.ts_ toe:
+3. Voeg onder aan de lijst in _infinite-scroll.html_ toe:
 ```html
 <ion-infinite-scroll (ionInfinite)="loadMore($event)">
   <ion-infinite-scroll-content>Loading more shows...</ion-infinite-scroll-content>
