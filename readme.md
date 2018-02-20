@@ -29,15 +29,15 @@ $radio-md-disabled-opacity: 0.1;
    Dit is te vinden op https://ionicframework.com/docs/api/components/radio/RadioButton/ (Je ziet daar de sass variablen die je kan aanpassen).  
    Zie het resultaat, custom kleurtje en timing en opacity.
 
-8. Deze items hebben ook custom events. Voeg in de _ion-radio_ regel toe: 
-```html
-(ionSelect)="selectCourse(course)
-```
-9. Voeg in _css-components.ts_ de volgende methode toe om een course te selecteren:
+8. Voeg in _css-components.ts_ de volgende methode toe om een course te selecteren:
 ```typescript
 selectCourse(course: any) { 
   this.selectedCourse = course; 
 }
+```
+9. Deze items hebben ook custom events. Voeg in de _ion-radio_ regel toe: 
+```html
+(ionSelect)="selectCourse(course)"
 ```
 10. In _css-components.html_ kunnen we nu mooi de selected course laten zien:
 ```html
