@@ -61,7 +61,7 @@ filterCourses(event: any) {
   } else {
     let search: string = event.target.value.toUpperCase();
     this.courses = this.allCourses.filter(course => {
-      return course.name.indexOf(search) >= 0;
+      return course.name.toUpperCase().indexOf(search) >= 0;
     });
   }
 }
